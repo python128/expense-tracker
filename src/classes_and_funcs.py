@@ -23,7 +23,7 @@ class Expense:
         self.amount = amount
 
     def __str__(self):
-        return str("{0:.2f} was spent on {1} for {2} and was placed under the category of {3}.".format(self.amount, self.date, self.name, self.tag))
+        return str("${0:.2f} was spent on {1} for {2} and was placed under the category of {3}.".format(self.amount, self.date, self.name, self.tag))
     
 
 # function to obtain values needed to create an expense object
